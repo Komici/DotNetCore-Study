@@ -1,0 +1,71 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CVMDesktop/1.0.0": {
+        "dependencies": {
+          "OrchardCore.Module.Targets": "1.0.0-rc1-10004"
+        },
+        "runtime": {
+          "CVMDesktop.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "OrchardCore.Abstractions/1.0.0-rc1-10004": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/OrchardCore.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OrchardCore.Module.Targets/1.0.0-rc1-10004": {
+        "dependencies": {
+          "OrchardCore.Abstractions": "1.0.0-rc1-10004"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CVMDesktop/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "OrchardCore.Abstractions/1.0.0-rc1-10004": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jVni4BN1MZrGmBDWUMIogheYo9FWMEALYMv/brzo39UCOCRSI8p6pdkh0XjGmNRxHxn+9+RZZgcZSV75lQV/qw==",
+      "path": "orchardcore.abstractions/1.0.0-rc1-10004",
+      "hashPath": "orchardcore.abstractions.1.0.0-rc1-10004.nupkg.sha512"
+    },
+    "OrchardCore.Module.Targets/1.0.0-rc1-10004": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vw6IImbFXojSBP6crpvSKYljl3g/nrVGrPTGLT//tlajEawT3j0ASwK0knQo2w6ZUKbLTZ4RNMMTpaS1BOXbKg==",
+      "path": "orchardcore.module.targets/1.0.0-rc1-10004",
+      "hashPath": "orchardcore.module.targets.1.0.0-rc1-10004.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+F:\代码库\DotNetCore-Study\OrchardCoreDemo\Modules\Module2\bin\Debug\netcoreapp3.1\Module2.deps.json
+F:\代码库\DotNetCore-Study\OrchardCoreDemo\Modules\Module2\bin\Debug\netcoreapp3.1\Module2.dll
+F:\代码库\DotNetCore-Study\OrchardCoreDemo\Modules\Module2\obj\Debug\netcoreapp3.1\Module2.AssemblyInfoInputs.cache
+F:\代码库\DotNetCore-Study\OrchardCoreDemo\Modules\Module2\obj\Debug\netcoreapp3.1\Module2.AssemblyInfo.cs
+F:\代码库\DotNetCore-Study\OrchardCoreDemo\Modules\Module2\obj\Debug\netcoreapp3.1\Module2.csprojAssemblyReference.cache
+F:\代码库\DotNetCore-Study\OrchardCoreDemo\Modules\Module2\bin\Debug\netcoreapp3.1\Module2.pdb
+F:\代码库\DotNetCore-Study\OrchardCoreDemo\Modules\Module2\obj\Debug\netcoreapp3.1\Module2.dll
+F:\代码库\DotNetCore-Study\OrchardCoreDemo\Modules\Module2\obj\Debug\netcoreapp3.1\Module2.pdb

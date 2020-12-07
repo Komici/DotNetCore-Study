@@ -1,0 +1,16 @@
+F:\代码库\DotNetCore-Study\CVMDesktop\obj\Debug\netcoreapp3.1\CVMDesktop.AssemblyInfoInputs.cache
+F:\代码库\DotNetCore-Study\CVMDesktop\obj\Debug\netcoreapp3.1\CVMDesktop.AssemblyInfo.cs
+F:\代码库\DotNetCore-Study\CVMDesktop\bin\Debug\netcoreapp3.1\CVMDesktop.deps.json
+F:\代码库\DotNetCore-Study\CVMDesktop\bin\Debug\netcoreapp3.1\CVMDesktop.dll
+F:\代码库\DotNetCore-Study\CVMDesktop\bin\Debug\netcoreapp3.1\CVMDesktop.pdb
+F:\代码库\DotNetCore-Study\CVMDesktop\obj\Debug\netcoreapp3.1\CVMDesktop.csprojAssemblyReference.cache
+F:\代码库\DotNetCore-Study\CVMDesktop\obj\Debug\netcoreapp3.1\CVMDesktop.dll
+F:\代码库\DotNetCore-Study\CVMDesktop\obj\Debug\netcoreapp3.1\CVMDesktop.pdb
+F:\代码库\DotNetCore-Study\OrchardCoreDemo\CVMDesktop\obj\Debug\netcoreapp3.1\CVMDesktop.csprojAssemblyReference.cache
+F:\代码库\DotNetCore-Study\OrchardCoreDemo\CVMDesktop\obj\Debug\netcoreapp3.1\CVMDesktop.AssemblyInfoInputs.cache
+F:\代码库\DotNetCore-Study\OrchardCoreDemo\CVMDesktop\obj\Debug\netcoreapp3.1\CVMDesktop.AssemblyInfo.cs
+F:\代码库\DotNetCore-Study\OrchardCoreDemo\CVMDesktop\obj\Debug\netcoreapp3.1\CVMDesktop.dll
+F:\代码库\DotNetCore-Study\OrchardCoreDemo\CVMDesktop\obj\Debug\netcoreapp3.1\CVMDesktop.pdb
+F:\代码库\DotNetCore-Study\OrchardCoreDemo\CVMDesktop\bin\Debug\netcoreapp3.1\CVMDesktop.deps.json
+F:\代码库\DotNetCore-Study\OrchardCoreDemo\CVMDesktop\bin\Debug\netcoreapp3.1\CVMDesktop.dll
+F:\代码库\DotNetCore-Study\OrchardCoreDemo\CVMDesktop\bin\Debug\netcoreapp3.1\CVMDesktop.pdb

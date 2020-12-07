@@ -1,0 +1,31 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/appa/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Delete", "Put", "Options" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 5002
+        }
+      ],
+      "UpstreamPathTemplate": "/appb/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Patch", "Delete", "Put", "Options" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://192.168.3.167:30090"
+  }
+}

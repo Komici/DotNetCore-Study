@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UKJCT4h7FBx3Xi/I6e1zjVHBjEKTIpXJGqL2ljGAlrCy3hs97216S6GL+3+gUjhlmjieGdoHtfM/UdvRW0RXrw==",
+  "success": true,
+  "projectFilePath": "F:\\代码库\\DotNetCore-Study\\WebApiVersionDemo\\WebApiVersionDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\XBH\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\4.1.1\\microsoft.aspnetcore.mvc.versioning.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

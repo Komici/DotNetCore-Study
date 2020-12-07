@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1/Testsay.cs \
+obj\Debug\netcoreapp3.1/TestsayGrpc.cs: Protos/testsay.proto

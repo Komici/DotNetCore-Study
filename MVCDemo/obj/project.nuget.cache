@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "oyMQTPUbxNKpVaq6uCfQR+Qx0hWKSdjpUsZCnvHviDPb1cBC+A4WYcaRXJXwTfNRt6Ov574XF8cKrsCmw0RBCg==",
+  "success": true,
+  "projectFilePath": "F:\\代码库\\DotNetCore-Study\\MVCDemo\\MVCDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\XBH\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\XBH\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\XBH\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\XBH\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
