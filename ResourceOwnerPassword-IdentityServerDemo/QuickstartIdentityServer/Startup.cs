@@ -22,7 +22,8 @@ namespace QuickstartIdentityServer
                 .AddInMemoryApiResources(Config.GetApis())
                 .AddInMemoryApiScopes(Config.GetScopes())
                 .AddInMemoryClients(Config.GetClients())
-                .AddTestUsers(Config.GetUsers());
+                .AddTestUsers(Config.GetUsers())
+                .AddResourceOwnerValidator<ResourceOwnerPasswordValidator>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
