@@ -5,7 +5,7 @@ using System.Linq;
 namespace Api.Controllers
 {
     [Route("api/identity")]
-    [Authorize]
+    [Authorize(Roles = "Manage")]
     public class TestController : ControllerBase
     {
         [HttpGet]

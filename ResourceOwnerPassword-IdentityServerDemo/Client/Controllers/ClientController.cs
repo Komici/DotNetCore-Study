@@ -47,12 +47,12 @@ namespace Client.Controllers
             var response = await client2.GetAsync("https://localhost:5001/api/identity");
             if (!response.IsSuccessStatusCode)
             {
-                Console.WriteLine(response.StatusCode);
+                return Content(response.StatusCode.ToString());
             }
             else
             {
                 var content = await response.Content.ReadAsStringAsync();
-                //Console.WriteLine(JArray.Parse(content));
+                return Content(content);
             }
 
             return Content(tokenResponse.Json.ToString());

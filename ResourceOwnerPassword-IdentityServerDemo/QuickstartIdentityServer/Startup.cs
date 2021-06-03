@@ -22,7 +22,7 @@ namespace QuickstartIdentityServer
                 .AddInMemoryApiResources(Config.GetApis())
                 .AddInMemoryApiScopes(Config.GetScopes())
                 .AddInMemoryClients(Config.GetClients())
-                .AddTestUsers(Config.GetUsers())
+                //.AddTestUsers(Config.GetUsers())
                 .AddResourceOwnerValidator<ResourceOwnerPasswordValidator>();
         }
 

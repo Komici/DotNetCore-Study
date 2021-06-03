@@ -1,4 +1,5 @@
-﻿using IdentityServer4.Models;
+﻿using IdentityModel;
+using IdentityServer4.Models;
 using IdentityServer4.Test;
 using System;
 using System.Collections.Generic;
@@ -54,7 +55,7 @@ namespace QuickstartIdentityServer
         {
             return new List<ApiResource>
             {
-                new ApiResource("api1", "My API"){ Scopes={ "client_scope1"}}
+                new ApiResource("api1", "My API",new List<string>(){JwtClaimTypes.Role }){ Scopes={ "client_scope1"}}
             };
         }
 

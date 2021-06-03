@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authentication;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace QuickstartIdentityServer
@@ -19,12 +20,23 @@ namespace QuickstartIdentityServer
 
         public Task ValidateAsync(ResourceOwnerPasswordValidationContext context)
         {
+            var claimList = new List<Claim>()
+                 {
+
+                     new Claim(ClaimTypes.Name, $"alice"),
+                     new Claim(JwtClaimTypes.Role.ToString(),UserRoleEnum.Manage.ToString())
+                 };
             //根据context.UserName和context.Password与数据库的数据做校验，判断是否合法
-            if (context.UserName == "admin" && context.Password == "123456")
+            if (context.UserName == "alice" && context.Password == "password")
             {
+                //context.Result = new GrantValidationResult(
+                // subject: "alice",
+                // authenticationMethod: "custom",
+                // claims: claimList.ToArray());
+
                 context.Result = new GrantValidationResult(
-                 subject: context.UserName,
-                 authenticationMethod: OidcConstants.AuthenticationMethods.Password);
+                 subject: "alice",
+                 authenticationMethod: "custom");
             }
             //else
             //{
