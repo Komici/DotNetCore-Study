@@ -29,7 +29,7 @@ namespace Client.Controllers
 
                 ClientId = "client",
                 ClientSecret = "secret",
-                Scope = "client_scope1",
+                Scope = "user_detail",
 
                 UserName = "alice",
                 Password = "password",

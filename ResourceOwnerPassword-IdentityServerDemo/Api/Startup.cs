@@ -25,7 +25,7 @@ namespace Api
                     options.Authority = "https://localhost:5000";
                     options.RequireHttpsMetadata = false;
 
-                    options.Audience = "api1";
+                    options.Audience = "user";
                 });
         }
 
@@ -41,6 +41,7 @@ namespace Api
 
             app.UseAuthentication();
             app.UseAuthorization();
+
 
             app.UseEndpoints(endpoints =>
             {

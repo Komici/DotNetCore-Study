@@ -29,14 +29,14 @@ namespace QuickstartIdentityServer
             //根据context.UserName和context.Password与数据库的数据做校验，判断是否合法
             if (context.UserName == "alice" && context.Password == "password")
             {
-                //context.Result = new GrantValidationResult(
-                // subject: "alice",
-                // authenticationMethod: "custom",
-                // claims: claimList.ToArray());
-
                 context.Result = new GrantValidationResult(
                  subject: "alice",
-                 authenticationMethod: "custom");
+                 authenticationMethod: "custom",
+                 claims: claimList.ToArray());
+
+                //context.Result = new GrantValidationResult(
+                // subject: "alice",
+                // authenticationMethod: "custom");
             }
             //else
             //{

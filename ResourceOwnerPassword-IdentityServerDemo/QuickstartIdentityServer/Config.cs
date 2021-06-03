@@ -55,7 +55,8 @@ namespace QuickstartIdentityServer
         {
             return new List<ApiResource>
             {
-                new ApiResource("api1", "My API",new List<string>(){JwtClaimTypes.Role }){ Scopes={ "client_scope1"}}
+                new ApiResource("api1", "My API",new List<string>(){JwtClaimTypes.Role }){ Scopes={ "client_scope1"}},
+                new ApiResource("user", "My API",new List<string>(){JwtClaimTypes.Role }){ Scopes={ "user_detail"}}
             };
         }
 
@@ -63,7 +64,8 @@ namespace QuickstartIdentityServer
         {
             return new List<ApiScope>
             {
-                new ApiScope("client_scope1")
+                new ApiScope("client_scope1"),
+                 new ApiScope("user_detail")
             };
         }
 
@@ -85,7 +87,7 @@ namespace QuickstartIdentityServer
                     },
 
                     // scopes that client has access to
-                    AllowedScopes = { "client_scope1" }
+                    AllowedScopes = { "client_scope1", "user_detail" }
                 }
             };
         }
